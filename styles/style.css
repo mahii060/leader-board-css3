@@ -10,17 +10,21 @@ body {
 
 main {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .container {
     background-color: #ffff;
     width: 870px;
     padding: 30px;
+    margin-top: 24px;
+    border-radius: 5px;
 }
 
 hr {
     border: 1px solid #D1D1D1;
+    margin-bottom: 27px;
 }
 
 /* top players style */
@@ -54,4 +58,40 @@ hr {
 .player-name {
     margin-left: 16px;
     font-size: 18px;
+}
+
+/* ------------
+    top blogs styles
+---------------- */
+.blogs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 26px;
+}
+
+.blog {
+    display: flex;
+}
+
+.blog .thumbnail img {
+    width: 177px;
+    height: 117px;
+}
+
+.blog-info {
+    margin-left: 16px;
+}
+
+.blog-title {
+    font-size: 20px;
+}
+
+.blog-author {
+    font-size: 16px;
+    color: #9F9F9F;
+}
+
+.blog-author a {
+    color: #562EFF;
+    text-decoration: none;
 }
