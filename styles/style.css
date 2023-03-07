@@ -1,7 +1,7 @@
 /* font */
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@500&family=Work+Sans&display=swap');
 
-/* common styles/ utilites */
+/* common styles/ utilities */
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
@@ -121,7 +121,7 @@ hr {
 
 .course .course-author {
     color: #ED6B4F;
-    ;
+
 }
 
 .course-info {
