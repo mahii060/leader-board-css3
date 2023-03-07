@@ -106,14 +106,20 @@ hr {
 }
 
 .course {
+    padding: 20px;
     border-radius: 15px;
-    box-shadow: 10px 10px 20px rgba(84, 82, 82, 0.05);
+    box-shadow: 50px 50px 50px #0000000d;
 
 }
 
 .course .course-banner img {
     width: 224px;
     height: 104px;
+}
+
+.course .course-author {
+    color: #ED6B4F;
+    ;
 }
 
 .course-info {
@@ -132,6 +138,13 @@ hr {
 
 .fa-star.empty {
     color: #AEAEAE;
+}
+
+.course .course-duration {
+    padding: 5px;
+    border-radius: 20px;
+    color: #FF4A60;
+    background-color: #FFE4E8;
 }
 
 /*---------------
